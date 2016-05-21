@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5053" systemVersion="14C2055" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5053"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SetWindowController"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Set&amp;Segment" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="PPO-hl-6dd" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="942" y="78" width="338" height="536"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <view key="contentView" id="y24-it-yoO">
+                <rect key="frame" x="0.0" y="0.0" width="338" height="536"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rpG-jO-KFR">
+                        <rect key="frame" x="210" y="13" width="95" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                        <buttonCell key="cell" type="push" title="Segment" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bwB-Rs-o9u">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="iGh-HV-mY5">
+                        <rect key="frame" x="33" y="13" width="116" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                        <buttonCell key="cell" type="push" title="Set Defaults" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="THB-L3-FFs">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <box autoresizesSubviews="NO" appearanceType="aqua" title="Results" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="3oj-h5-qze">
+                        <rect key="frame" x="36" y="48" width="266" height="90"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="264" height="74"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h3f-Fh-DyM">
+                                    <rect key="frame" x="89" y="45" width="157" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Segmented Region" drawsBackground="YES" id="zbI-m8-U6x">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fQo-io-lK0">
+                                    <rect key="frame" x="15" y="47" width="64" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label:" id="yq0-OF-chI">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mqi-xd-d9e">
+                                    <rect key="frame" x="89" y="14" width="85" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <color key="color" red="0.12515396000000001" green="0.027273296999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </colorWell>
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5NL-kD-xzv">
+                                    <rect key="frame" x="15" y="18" width="59" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Color:" id="72t-jH-9jC">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <box autoresizesSubviews="NO" appearanceType="aqua" title="Parameters" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="gOw-sE-sEl">
+                        <rect key="frame" x="36" y="142" width="266" height="293"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="264" height="277"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="s5J-d4-IGd">
+                                    <rect key="frame" x="15" y="255" width="86" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Lesion number:" id="HZR-3Q-eZc">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mQ5-FD-dQI">
+                                    <rect key="frame" x="144" y="253" width="96" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="p6i-6e-MbE">
+                                        <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="mU3-mT-Vqj"/>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zeu-j4-OOQ">
+                                    <rect key="frame" x="186" y="220" width="20" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Z:" id="ime-1R-ZMl">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IkC-uW-6BJ">
+                                    <rect key="frame" x="81" y="218" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="4LO-ua-nm6">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="4CL-2L-Zq0">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Pfz-IZ-vkd">
+                                    <rect key="frame" x="140" y="218" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="3wn-Di-CKa">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="J8P-fY-kJj">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uOa-SJ-ymm">
+                                    <rect key="frame" x="200" y="218" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="yMd-bb-Wh1">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="3Uk-sc-AMr">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pr6-v2-AZt">
+                                    <rect key="frame" x="127" y="220" width="17" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Y:" id="Lez-2c-Ldo">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i3a-xi-jEj">
+                                    <rect key="frame" x="66" y="219" width="15" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="X:" id="2xl-Ca-sfK">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3qi-fu-nm1">
+                                    <rect key="frame" x="66" y="195" width="15" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="X:" id="LrG-8I-Rz0">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Roc-dA-BYg">
+                                    <rect key="frame" x="66" y="170" width="15" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="X:" id="rKZ-fT-cTi">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UhB-Fo-7bv">
+                                    <rect key="frame" x="66" y="145" width="15" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="X:" id="Xdh-Kr-LKk">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CTK-vt-Tx7">
+                                    <rect key="frame" x="66" y="119" width="15" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="X:" id="Uud-yL-bdg">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wPL-gb-BxD">
+                                    <rect key="frame" x="66" y="93" width="15" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="X:" id="pZS-aO-mW0">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WaH-nN-h0S">
+                                    <rect key="frame" x="66" y="67" width="15" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="X:" id="9pz-QJ-4qd">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mfY-qP-WE8">
+                                    <rect key="frame" x="66" y="42" width="15" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="X:" id="Azm-aQ-82w">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="854-ex-dfN">
+                                    <rect key="frame" x="66" y="17" width="15" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="X:" id="s87-Hb-od1">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Vjp-Ke-mLK">
+                                    <rect key="frame" x="186" y="195" width="20" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Z:" id="KpY-EF-HoJ">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Bby-Hx-Oga">
+                                    <rect key="frame" x="81" y="193" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="sjr-fD-jPh">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="cCY-zp-jtY">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Zwl-az-YzD">
+                                    <rect key="frame" x="140" y="193" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="nKQ-g4-NIX">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="El3-c5-1Xq">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5F5-P0-yVL">
+                                    <rect key="frame" x="200" y="193" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="GfY-0K-ZCi">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="9Yd-GI-j6M">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ppD-Lb-WGx">
+                                    <rect key="frame" x="127" y="195" width="17" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Y:" id="Wxi-n2-cSb">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="b1e-6q-kyW">
+                                    <rect key="frame" x="186" y="170" width="20" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Z:" id="fOb-Qa-VCy">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GIs-p3-Jls">
+                                    <rect key="frame" x="81" y="168" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="89G-OY-CI9">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="GZY-TS-dp2">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6XS-PE-Qas">
+                                    <rect key="frame" x="140" y="168" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Pr8-zt-D55">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="a2A-FW-duO">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ofs-8z-WqK">
+                                    <rect key="frame" x="200" y="168" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ueJ-fz-btK">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="axw-1l-OvX">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kl2-Hz-Sqx">
+                                    <rect key="frame" x="127" y="170" width="17" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Y:" id="eHu-uL-Gfs">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wtL-cc-Twc">
+                                    <rect key="frame" x="186" y="145" width="20" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Z:" id="Sbf-lp-rCZ">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="M1J-l1-R5Q">
+                                    <rect key="frame" x="81" y="143" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="gCD-AR-cIo">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="1jF-AU-Xj9">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aty-9L-1jr">
+                                    <rect key="frame" x="140" y="143" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="YuB-t3-yHW">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="TS5-1G-h1e">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="las-r5-BpA">
+                                    <rect key="frame" x="200" y="143" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="HE0-NJ-35j">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="lJG-O4-Zla">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NNP-kP-lQw">
+                                    <rect key="frame" x="127" y="145" width="17" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Y:" id="T1P-xT-Lyd">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jIk-bu-4w0">
+                                    <rect key="frame" x="186" y="119" width="20" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Z:" id="9Gg-MB-7WF">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="P48-Me-03t">
+                                    <rect key="frame" x="81" y="117" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="smf-ZA-Mch">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="iPs-1C-DIb">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bVj-dB-Kvt">
+                                    <rect key="frame" x="140" y="117" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="ri0-Nh-oD4"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="9s2-xX-ikC">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="i9m-Gt-oyg">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oqm-m8-xcF">
+                                    <rect key="frame" x="200" y="117" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Ebi-3U-WyZ">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="geK-X1-saN">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ki7-wx-ZjJ">
+                                    <rect key="frame" x="127" y="119" width="17" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Y:" id="7wU-Cv-vcw">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="j6N-fO-lhf">
+                                    <rect key="frame" x="186" y="93" width="20" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Z:" id="auQ-Do-4ax">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Fb4-i8-ras">
+                                    <rect key="frame" x="81" y="91" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ddc-N7-RXk">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="vD1-Kw-dRh">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uon-AP-6K0">
+                                    <rect key="frame" x="140" y="91" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="dOU-mG-FBb">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="PI3-Xb-yJG">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="O9w-Rx-3FS">
+                                    <rect key="frame" x="200" y="91" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="2ef-Cu-9mO">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="CYR-Fr-WyS">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="k5t-ED-0Qs">
+                                    <rect key="frame" x="127" y="93" width="17" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Y:" id="rfX-MA-GhJ">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="R3R-il-pnj">
+                                    <rect key="frame" x="186" y="67" width="20" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Z:" id="S9e-G4-2Qm">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Vnv-M2-3iK">
+                                    <rect key="frame" x="81" y="65" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="J1b-Aq-bvU">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="4z8-Wy-3ic">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XO6-V5-s7l">
+                                    <rect key="frame" x="140" y="65" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="6rQ-x1-BoV">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="2DN-24-Aka">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bAF-Sa-PRY">
+                                    <rect key="frame" x="200" y="65" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="1GS-Q7-wME">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="cyB-Rg-3se">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="I5E-uF-RUg">
+                                    <rect key="frame" x="127" y="67" width="17" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Y:" id="fjg-QH-Zo8">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rUW-dY-009">
+                                    <rect key="frame" x="186" y="42" width="20" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Z:" id="eRD-xX-Keo">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ikh-qP-KLr">
+                                    <rect key="frame" x="81" y="40" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="9ep-pz-KN3">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="V28-fH-sDO">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KWW-q3-u9Y">
+                                    <rect key="frame" x="140" y="40" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="660-V9-0fy">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="x6x-hA-sHW">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gKb-EK-rZE">
+                                    <rect key="frame" x="200" y="40" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="51O-pi-ayW">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="wf2-lt-Ce7">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="96S-r5-Kxf">
+                                    <rect key="frame" x="127" y="42" width="17" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Y:" id="AG1-R8-HBV">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rkT-c0-yyV">
+                                    <rect key="frame" x="186" y="17" width="20" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Z:" id="mYo-d9-OnG">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ACN-Nw-dJY">
+                                    <rect key="frame" x="81" y="15" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="Pql-lr-46h"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="KUr-Hj-K2X">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="Loj-Ok-KLV">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="A8Y-M0-md0">
+                                    <rect key="frame" x="140" y="15" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="J7m-Im-Tr8">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="B7d-sJ-ZBT">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eqW-f9-zGk">
+                                    <rect key="frame" x="200" y="15" width="40" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ZOG-ov-yWF">
+                                        <numberFormatter key="formatter" formatterBehavior="custom10_4" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="7k8-kJ-fvN">
+                                            <nil key="negativeInfinitySymbol"/>
+                                            <nil key="positiveInfinitySymbol"/>
+                                            <real key="minimum" value="1"/>
+                                            <real key="maximum" value="15"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wSa-XA-oNc">
+                                    <rect key="frame" x="127" y="17" width="17" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Y:" id="2RK-Ur-vTp">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="21S-g4-yzl">
+                                    <rect key="frame" x="15" y="220" width="47" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Position" id="kXH-ct-TcK">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                        </view>
+                        <constraints>
+                            <constraint firstItem="rUW-dY-009" firstAttribute="baseline" secondItem="96S-r5-Kxf" secondAttribute="baseline" id="0hS-r6-CsD"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="leading" secondItem="ppD-Lb-WGx" secondAttribute="leading" id="1U9-4R-EgT"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="leading" secondItem="Fb4-i8-ras" secondAttribute="leading" id="2Lo-h8-PBM"/>
+                            <constraint firstItem="5F5-P0-yVL" firstAttribute="top" secondItem="uOa-SJ-ymm" secondAttribute="bottom" constant="6" id="2xN-5s-QAR"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="trailing" secondItem="NNP-kP-lQw" secondAttribute="trailing" id="33B-h7-thk"/>
+                            <constraint firstItem="aty-9L-1jr" firstAttribute="centerY" secondItem="M1J-l1-R5Q" secondAttribute="centerY" id="3pm-G6-GAY"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="trailing" secondItem="eqW-f9-zGk" secondAttribute="trailing" id="43V-0a-uby"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="leading" secondItem="IkC-uW-6BJ" secondAttribute="trailing" constant="8" symbolic="YES" id="4g1-dN-anx"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="leading" secondItem="XO6-V5-s7l" secondAttribute="leading" id="4ha-UU-PBi"/>
+                            <constraint firstItem="Zwl-az-YzD" firstAttribute="centerY" secondItem="Bby-Hx-Oga" secondAttribute="centerY" id="54R-ie-lpB"/>
+                            <constraint firstItem="rUW-dY-009" firstAttribute="baseline" secondItem="gKb-EK-rZE" secondAttribute="baseline" id="59R-M9-b9r"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="leading" secondItem="M1J-l1-R5Q" secondAttribute="leading" id="5OO-fp-wht"/>
+                            <constraint firstItem="Pfz-IZ-vkd" firstAttribute="centerY" secondItem="uOa-SJ-ymm" secondAttribute="centerY" id="5eI-bT-7l8"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="leading" secondItem="wtL-cc-Twc" secondAttribute="leading" id="5g8-p0-fob"/>
+                            <constraint firstAttribute="trailing" secondItem="uOa-SJ-ymm" secondAttribute="trailing" constant="22" id="6Oe-ug-gss"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="trailing" secondItem="ofs-8z-WqK" secondAttribute="trailing" id="6zA-pb-YNP"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="leading" secondItem="j6N-fO-lhf" secondAttribute="leading" id="85F-AT-UhC"/>
+                            <constraint firstItem="rUW-dY-009" firstAttribute="top" secondItem="bAF-Sa-PRY" secondAttribute="bottom" constant="9" id="8BW-Ac-iWo"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="baseline" secondItem="jIk-bu-4w0" secondAttribute="baseline" id="8QV-Ev-iCD"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="trailing" secondItem="KWW-q3-u9Y" secondAttribute="trailing" id="A0O-O9-jzu"/>
+                            <constraint firstItem="k5t-ED-0Qs" firstAttribute="baseline" secondItem="uon-AP-6K0" secondAttribute="baseline" id="Ahv-SB-4ye"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="leading" secondItem="O9w-Rx-3FS" secondAttribute="leading" id="AvG-4t-N8x"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="trailing" secondItem="j6N-fO-lhf" secondAttribute="trailing" id="Azo-zi-SMn"/>
+                            <constraint firstItem="KWW-q3-u9Y" firstAttribute="centerY" secondItem="ikh-qP-KLr" secondAttribute="centerY" id="B4A-qn-I6X"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="leading" secondItem="Zwl-az-YzD" secondAttribute="leading" id="BG9-fX-xmB"/>
+                            <constraint firstAttribute="bottom" secondItem="bVj-dB-Kvt" secondAttribute="bottom" constant="114" id="Dfx-Ry-G9f"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="leading" secondItem="rkT-c0-yyV" secondAttribute="leading" id="Dtc-cs-u8e"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="leading" secondItem="Vjp-Ke-mLK" secondAttribute="leading" id="EDz-4l-uht"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="trailing" secondItem="rkT-c0-yyV" secondAttribute="trailing" id="FJe-6g-TSA"/>
+                            <constraint firstItem="k5t-ED-0Qs" firstAttribute="baseline" secondItem="j6N-fO-lhf" secondAttribute="baseline" id="FWQ-z6-FyZ"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="trailing" secondItem="k5t-ED-0Qs" secondAttribute="trailing" id="GI0-yk-asf"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="baseline" secondItem="rkT-c0-yyV" secondAttribute="baseline" id="GXc-GP-l51"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="trailing" secondItem="XO6-V5-s7l" secondAttribute="trailing" id="GZt-fb-fAG"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="trailing" secondItem="uon-AP-6K0" secondAttribute="trailing" id="Gb5-Lr-fGa"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="trailing" secondItem="gKb-EK-rZE" secondAttribute="trailing" id="GbP-ff-9ar"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="trailing" secondItem="IkC-uW-6BJ" secondAttribute="trailing" id="GtP-mv-XrJ"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="leading" secondItem="b1e-6q-kyW" secondAttribute="leading" id="HV2-1n-viJ"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="leading" secondItem="6XS-PE-Qas" secondAttribute="leading" id="IzA-hf-FvI"/>
+                            <constraint firstItem="Zwl-az-YzD" firstAttribute="centerY" secondItem="5F5-P0-yVL" secondAttribute="centerY" id="JVf-Zm-5aj"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="leading" secondItem="k5t-ED-0Qs" secondAttribute="leading" id="K8h-ng-QEY"/>
+                            <constraint firstItem="A8Y-M0-md0" firstAttribute="centerY" secondItem="ACN-Nw-dJY" secondAttribute="centerY" id="KhS-Ya-VZ9"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="leading" secondItem="A8Y-M0-md0" secondAttribute="leading" id="KoD-2e-RE9"/>
+                            <constraint firstItem="s5J-d4-IGd" firstAttribute="centerY" secondItem="mQ5-FD-dQI" secondAttribute="centerY" id="Mem-aK-kdH"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="trailing" secondItem="aty-9L-1jr" secondAttribute="trailing" id="NBE-dl-Rbt"/>
+                            <constraint firstAttribute="trailing" secondItem="zeu-j4-OOQ" secondAttribute="trailing" constant="58" id="Okd-vI-eCD"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="leading" secondItem="bAF-Sa-PRY" secondAttribute="leading" id="P41-nt-6KN"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="centerY" secondItem="oqm-m8-xcF" secondAttribute="centerY" id="P4D-ql-Asv"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="leading" secondItem="I5E-uF-RUg" secondAttribute="leading" id="Plq-iH-Qfg"/>
+                            <constraint firstAttribute="bottom" secondItem="ACN-Nw-dJY" secondAttribute="bottom" constant="12" id="Rdl-wt-dID"/>
+                            <constraint firstItem="kl2-Hz-Sqx" firstAttribute="baseline" secondItem="b1e-6q-kyW" secondAttribute="baseline" id="Rdw-jY-uWg"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="leading" secondItem="uon-AP-6K0" secondAttribute="leading" id="S4a-Cf-AtZ"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="leading" secondItem="aty-9L-1jr" secondAttribute="leading" id="SZj-rT-9Mq"/>
+                            <constraint firstItem="wtL-cc-Twc" firstAttribute="baseline" secondItem="las-r5-BpA" secondAttribute="baseline" id="UTb-RD-PKf"/>
+                            <constraint firstAttribute="bottom" secondItem="s5J-d4-IGd" secondAttribute="bottom" constant="252" id="Ugz-hN-I6H"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="baseline" secondItem="wSa-XA-oNc" secondAttribute="baseline" id="VJ6-QY-WdX"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="leading" secondItem="KWW-q3-u9Y" secondAttribute="leading" id="VN4-pz-go5"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="leading" secondItem="R3R-il-pnj" secondAttribute="leading" id="Vcv-Fi-wCN"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="leading" secondItem="Bby-Hx-Oga" secondAttribute="leading" id="Vyw-bt-vCk"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="trailing" secondItem="mQ5-FD-dQI" secondAttribute="trailing" id="WLQ-pc-8pO"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="trailing" secondItem="5F5-P0-yVL" secondAttribute="trailing" id="Wxq-aK-CKd"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="trailing" secondItem="oqm-m8-xcF" secondAttribute="trailing" id="XDm-Gq-g2K"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="leading" secondItem="ikh-qP-KLr" secondAttribute="leading" id="XSb-Oh-bPZ"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="leading" secondItem="oqm-m8-xcF" secondAttribute="leading" id="Xml-wz-ne6"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="trailing" secondItem="Fb4-i8-ras" secondAttribute="trailing" id="YVW-rR-fAa"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="trailing" secondItem="I5E-uF-RUg" secondAttribute="trailing" id="Yts-9n-yor"/>
+                            <constraint firstItem="NNP-kP-lQw" firstAttribute="top" secondItem="kl2-Hz-Sqx" secondAttribute="bottom" constant="11" id="ZUg-3h-KKd"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="trailing" secondItem="ki7-wx-ZjJ" secondAttribute="trailing" id="ZZT-yx-o71"/>
+                            <constraint firstItem="6XS-PE-Qas" firstAttribute="centerY" secondItem="ofs-8z-WqK" secondAttribute="centerY" id="ZZg-cQ-pCW"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="trailing" secondItem="wSa-XA-oNc" secondAttribute="trailing" id="ZdH-Sd-faW"/>
+                            <constraint firstItem="uon-AP-6K0" firstAttribute="centerY" secondItem="O9w-Rx-3FS" secondAttribute="centerY" id="a1B-np-wPC"/>
+                            <constraint firstItem="ppD-Lb-WGx" firstAttribute="top" secondItem="pr6-v2-AZt" secondAttribute="bottom" constant="11" id="a5e-7x-WgZ"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="leading" secondItem="Vnv-M2-3iK" secondAttribute="leading" id="aiZ-cF-6BL"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="trailing" secondItem="kl2-Hz-Sqx" secondAttribute="trailing" id="atc-gg-SfO"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="baseline" secondItem="zeu-j4-OOQ" secondAttribute="baseline" id="bPF-G4-cU9"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="trailing" secondItem="Zwl-az-YzD" secondAttribute="trailing" id="baC-Cn-BiG"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="trailing" secondItem="jIk-bu-4w0" secondAttribute="trailing" id="cE4-eU-Mck"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="leading" secondItem="Pfz-IZ-vkd" secondAttribute="leading" id="cEw-G0-cGG"/>
+                            <constraint firstItem="kl2-Hz-Sqx" firstAttribute="baseline" secondItem="6XS-PE-Qas" secondAttribute="baseline" id="cW3-MR-bae"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="leading" secondItem="gKb-EK-rZE" secondAttribute="leading" id="cmo-wI-WVs"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="trailing" secondItem="ikh-qP-KLr" secondAttribute="trailing" id="cnx-TR-Pzs"/>
+                            <constraint firstItem="XO6-V5-s7l" firstAttribute="centerY" secondItem="Vnv-M2-3iK" secondAttribute="centerY" id="dej-sL-HpJ"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="leading" secondItem="kl2-Hz-Sqx" secondAttribute="leading" id="dvK-yr-cG0"/>
+                            <constraint firstItem="KWW-q3-u9Y" firstAttribute="centerY" secondItem="gKb-EK-rZE" secondAttribute="centerY" id="eH9-Jn-wzd"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="leading" secondItem="5F5-P0-yVL" secondAttribute="leading" id="eKd-fe-YSB"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="leading" secondItem="GIs-p3-Jls" secondAttribute="leading" id="f0Z-zC-sQM"/>
+                            <constraint firstItem="6XS-PE-Qas" firstAttribute="centerY" secondItem="GIs-p3-Jls" secondAttribute="centerY" id="f12-3I-NXn"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="trailing" secondItem="A8Y-M0-md0" secondAttribute="trailing" id="fBo-ro-Ofb"/>
+                            <constraint firstItem="s5J-d4-IGd" firstAttribute="leading" secondItem="gOw-sE-sEl" secondAttribute="leading" constant="15" id="fKg-wB-zIq"/>
+                            <constraint firstItem="mQ5-FD-dQI" firstAttribute="leading" secondItem="s5J-d4-IGd" secondAttribute="trailing" constant="45" id="fQg-Vh-FbC"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="trailing" secondItem="P48-Me-03t" secondAttribute="trailing" id="fSK-mg-duQ"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="leading" secondItem="las-r5-BpA" secondAttribute="leading" id="fro-LW-Tg5"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="trailing" secondItem="Bby-Hx-Oga" secondAttribute="trailing" id="fsQ-fV-VWX"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="leading" secondItem="pr6-v2-AZt" secondAttribute="trailing" constant="46" id="fuA-pd-oXo"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="baseline" secondItem="ki7-wx-ZjJ" secondAttribute="baseline" id="fxB-eD-7rK"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="leading" secondItem="Pfz-IZ-vkd" secondAttribute="trailing" constant="8" symbolic="YES" id="ge1-Pz-gBs"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="leading" secondItem="IkC-uW-6BJ" secondAttribute="leading" id="gqe-Gr-yhs"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="trailing" secondItem="las-r5-BpA" secondAttribute="trailing" id="h47-BU-l2I"/>
+                            <constraint firstItem="aty-9L-1jr" firstAttribute="centerY" secondItem="las-r5-BpA" secondAttribute="centerY" id="h6X-ak-GrZ"/>
+                            <constraint firstItem="uon-AP-6K0" firstAttribute="centerY" secondItem="Fb4-i8-ras" secondAttribute="centerY" id="hV8-dQ-wUW"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="leading" secondItem="NNP-kP-lQw" secondAttribute="leading" id="iYv-Tw-LIF"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="trailing" secondItem="6XS-PE-Qas" secondAttribute="trailing" id="idE-TG-2bQ"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="trailing" secondItem="b1e-6q-kyW" secondAttribute="trailing" id="jSR-L5-m1Z"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="leading" secondItem="gOw-sE-sEl" secondAttribute="leading" constant="79" id="jrC-73-c0O"/>
+                            <constraint firstItem="I5E-uF-RUg" firstAttribute="top" secondItem="k5t-ED-0Qs" secondAttribute="bottom" constant="12" id="k1W-vi-2rg"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="leading" secondItem="96S-r5-Kxf" secondAttribute="leading" id="kLO-vR-ZfA"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="trailing" secondItem="R3R-il-pnj" secondAttribute="trailing" id="kOA-Fz-qqH"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="leading" secondItem="ofs-8z-WqK" secondAttribute="leading" id="kWG-sa-qLi"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="leading" secondItem="P48-Me-03t" secondAttribute="leading" id="lGK-CG-5bg"/>
+                            <constraint firstItem="IkC-uW-6BJ" firstAttribute="top" secondItem="s5J-d4-IGd" secondAttribute="bottom" constant="18" id="mEK-L7-74N"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="trailing" secondItem="rUW-dY-009" secondAttribute="trailing" id="mKB-vy-KTk"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="trailing" secondItem="Vnv-M2-3iK" secondAttribute="trailing" id="mZG-Qo-eXs"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="leading" secondItem="rUW-dY-009" secondAttribute="leading" id="mhK-3f-6Kd"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="trailing" secondItem="O9w-Rx-3FS" secondAttribute="trailing" id="nHS-On-jNu"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="leading" secondItem="eqW-f9-zGk" secondAttribute="leading" id="nei-LX-UYf"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="trailing" secondItem="M1J-l1-R5Q" secondAttribute="trailing" id="oi1-OF-ia9"/>
+                            <constraint firstItem="Pfz-IZ-vkd" firstAttribute="centerY" secondItem="IkC-uW-6BJ" secondAttribute="centerY" id="opw-zU-Vdc"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="trailing" secondItem="bAF-Sa-PRY" secondAttribute="trailing" id="ovD-k8-aSx"/>
+                            <constraint firstItem="uon-AP-6K0" firstAttribute="top" secondItem="bVj-dB-Kvt" secondAttribute="bottom" constant="7" id="oxO-MP-qRa"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="trailing" secondItem="wtL-cc-Twc" secondAttribute="trailing" id="p2T-lV-Oh0"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="trailing" secondItem="GIs-p3-Jls" secondAttribute="trailing" id="qsg-fY-C7n"/>
+                            <constraint firstItem="s5J-d4-IGd" firstAttribute="top" secondItem="gOw-sE-sEl" secondAttribute="top" constant="23" id="rB2-tT-1R9"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="trailing" secondItem="ppD-Lb-WGx" secondAttribute="trailing" id="rax-4N-RFk"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="leading" secondItem="Pfz-IZ-vkd" secondAttribute="trailing" constant="20" id="rd1-In-5s0"/>
+                            <constraint firstItem="zeu-j4-OOQ" firstAttribute="trailing" secondItem="Vjp-Ke-mLK" secondAttribute="trailing" id="rfm-Cx-jlM"/>
+                            <constraint firstItem="XO6-V5-s7l" firstAttribute="centerY" secondItem="bAF-Sa-PRY" secondAttribute="centerY" id="rn7-tw-BHq"/>
+                            <constraint firstItem="wSa-XA-oNc" firstAttribute="leading" secondItem="ACN-Nw-dJY" secondAttribute="trailing" constant="8" symbolic="YES" id="s2G-YQ-4m2"/>
+                            <constraint firstItem="ACN-Nw-dJY" firstAttribute="top" secondItem="ikh-qP-KLr" secondAttribute="bottom" constant="6" id="sbZ-xb-JqF"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="trailing" secondItem="96S-r5-Kxf" secondAttribute="trailing" id="tsQ-ot-Cqx"/>
+                            <constraint firstAttribute="trailing" secondItem="bVj-dB-Kvt" secondAttribute="trailing" constant="82" id="tyd-Cy-QV4"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="leading" secondItem="P48-Me-03t" secondAttribute="trailing" constant="19" id="uYO-ms-Fje"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="trailing" secondItem="Pfz-IZ-vkd" secondAttribute="trailing" id="vRm-f6-mge"/>
+                            <constraint firstItem="R3R-il-pnj" firstAttribute="baseline" secondItem="bAF-Sa-PRY" secondAttribute="baseline" id="w6N-8K-hd5"/>
+                            <constraint firstItem="ofs-8z-WqK" firstAttribute="top" secondItem="Vjp-Ke-mLK" secondAttribute="bottom" constant="8" symbolic="YES" id="wUF-YJ-yPm"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="centerY" secondItem="P48-Me-03t" secondAttribute="centerY" id="wdg-yR-NkJ"/>
+                            <constraint firstItem="jIk-bu-4w0" firstAttribute="leading" secondItem="bVj-dB-Kvt" secondAttribute="trailing" constant="8" symbolic="YES" id="wzr-jB-kn8"/>
+                            <constraint firstItem="bVj-dB-Kvt" firstAttribute="top" secondItem="aty-9L-1jr" secondAttribute="bottom" constant="7" id="x4M-bc-7kY"/>
+                            <constraint firstItem="uOa-SJ-ymm" firstAttribute="baseline" secondItem="pr6-v2-AZt" secondAttribute="baseline" id="xXk-Ob-orU"/>
+                            <constraint firstItem="A8Y-M0-md0" firstAttribute="centerY" secondItem="eqW-f9-zGk" secondAttribute="centerY" id="yPY-Ez-AxI"/>
+                            <constraint firstItem="Vjp-Ke-mLK" firstAttribute="baseline" secondItem="5F5-P0-yVL" secondAttribute="baseline" id="zTn-ax-mG2"/>
+                            <constraint firstItem="pr6-v2-AZt" firstAttribute="leading" secondItem="ki7-wx-ZjJ" secondAttribute="leading" id="zel-DW-3Xc"/>
+                        </constraints>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <box autoresizesSubviews="NO" appearanceType="aqua" fixedFrame="YES" title=" Methods" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="hNU-Ho-4al">
+                        <rect key="frame" x="36" y="439" width="266" height="87"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="264" height="71"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <matrix appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uoi-eR-jfa">
+                                    <rect key="frame" x="18" y="18" width="228" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    <size key="cellSize" width="212" height="18"/>
+                                    <size key="intercellSpacing" width="4" height="2"/>
+                                    <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" inset="2" id="ZyR-sO-lY4">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <cells>
+                                        <column>
+                                            <buttonCell type="radio" title="  Automatic Segmentation" imagePosition="left" alignment="left" state="on" tag="1" inset="2" id="wzz-Di-kSG">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <buttonCell type="radio" title="  Semiautomatic Segmentation" imagePosition="left" alignment="left" inset="2" id="PLZ-DB-TBT">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                        </column>
+                                    </cells>
+                                </matrix>
+                            </subviews>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gOw-sE-sEl" firstAttribute="trailing" secondItem="rpG-jO-KFR" secondAttribute="trailing" id="0aI-wE-ZRR"/>
+                    <constraint firstAttribute="bottom" secondItem="rpG-jO-KFR" secondAttribute="bottom" constant="20" symbolic="YES" id="67d-9Q-Ocd"/>
+                    <constraint firstItem="gOw-sE-sEl" firstAttribute="leading" secondItem="3oj-h5-qze" secondAttribute="leading" id="96P-WU-gqb"/>
+                    <constraint firstItem="gOw-sE-sEl" firstAttribute="centerX" secondItem="y24-it-yoO" secondAttribute="centerX" id="GzJ-Sd-fkE"/>
+                    <constraint firstItem="gOw-sE-sEl" firstAttribute="leading" secondItem="iGh-HV-mY5" secondAttribute="leading" id="R8i-UB-syN"/>
+                    <constraint firstItem="gOw-sE-sEl" firstAttribute="top" secondItem="y24-it-yoO" secondAttribute="top" constant="101" id="RlP-I9-XaJ"/>
+                    <constraint firstItem="gOw-sE-sEl" firstAttribute="trailing" secondItem="3oj-h5-qze" secondAttribute="trailing" id="aJw-k8-Phr"/>
+                    <constraint firstItem="rpG-jO-KFR" firstAttribute="baseline" secondItem="iGh-HV-mY5" secondAttribute="baseline" id="f1O-SY-LPQ"/>
+                    <constraint firstItem="3oj-h5-qze" firstAttribute="top" secondItem="gOw-sE-sEl" secondAttribute="bottom" constant="8" symbolic="YES" id="u5x-X2-Jch"/>
+                    <constraint firstItem="rpG-jO-KFR" firstAttribute="top" secondItem="3oj-h5-qze" secondAttribute="bottom" constant="11" id="uMz-nX-97p"/>
+                </constraints>
+            </view>
+        </window>
+    </objects>
+</document>
