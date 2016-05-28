@@ -341,17 +341,17 @@ t1463760848
 s19480
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornell.LinkFileList
-c00000000573F37CE0000000000000189
-t1463760846
+c000000005748339B0000000000000189
+t1464349595
 s393
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.o
-t1463779819
-s114848
+t1464405884
+s118584
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.o
-t1463779819
-s118592
+t1464405884
+s173972
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/x86_64/MSLSMRICornell
 t1463760848
@@ -379,7 +379,7 @@ t1463750289
 s13526960
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/PrecompiledHeaders/MSLSMRICornell_Prefix-crasbtimwiuykyfkmlqibqfxfazq/MSLSMRICornell_Prefix.pch.pch
-t1463760847
+t1464349596
 s17303044
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/PrecompiledHeaders/MSLSMRICornell_Prefix-ddhztcyrazialmaebkcherfdpbre/MSLSMRICornell_Prefix.pch.pch
@@ -395,24 +395,24 @@ t1463750290
 s17305472
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin
-t1463779819
+t1464405883
 s102
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Info.plist
-t1463779818
+t1464405883
 s1160
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell
-t1463779819
-s19528
+t1464405884
+s44996
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/English.lproj/InfoPlist.strings
-t1463779818
+t1464405883
 s254
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/SetWindowController.nib
-t1463779819
-s65556
+t1464405883
+s34071
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/English.lproj/InfoPlist.strings
 c00000000573EF97600000000000000FD
@@ -425,8 +425,8 @@ t1463744969
 s779
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/MSLSMRICornellFilter.h
-c00000000573F6BFA000000000000027A
-t1463774202
+c000000005748339C000000000000027A
+t1464349596
 s634
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/MSLSMRICornellFilter.mm
@@ -490,9 +490,9 @@ t1463772820
 s580
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.h
-c00000000573F76D80000000000000333
-t1463776984
-s819
+c0000000057490F7B000000000000107C
+t1464405883
+s4220
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.m
 c00000000573F08EF0000000000000233
@@ -500,14 +500,14 @@ t1463748847
 s563
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm
-c00000000573F81EA0000000000001088
-t1463779818
-s4232
+c0000000057490F7B0000000000004ECA
+t1464405883
+s20170
 
 N/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib
-c00000000573F146F000000000001B140
-t1463751791
-s110912
+c0000000057490F7B000000000000CD8B
+t1464405883
+s52619
 
 N/Users/rijiansu/Downloads/osirixCMRI/osirix/ITK180/lib/libITKBiasCorrection-4.1.a
 c00000000573DE0540000000000003348
@@ -916,11 +916,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies64077588b9efbc41^01a17588b9efbc41^---0#1#1#--18"Check dependencies36"5A279938-FEE0-40AA-927C-9C9EF7727A96-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd2fd50fb46f9bc41^9a5f51fb46f9bc41^---0#1#1#--18"Check dependencies36"77B43714-7B14-49F1-8884-CBFCD0193272-
 
 CCompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/MSLSMRICornellFilter.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s485472619.093641
-e485472619.435392
+s486098683.930959
+e486098684.188149
 r1
 xCompileC
 xDerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.o
@@ -941,8 +941,8 @@ d/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/OsiriXAPI.framework/Headers
 d/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/OsiriXAPI.framework/Headers/ROI.h
 d/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.h
 d/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/ProjectDebug.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/MSLSMRICornellFilter.mm247"CompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.o MSLSMRICornellFilter.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler630c186bb9efbc41^2908726bb9efbc41^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/MSLSMRICornellFilter.mm0000000000000000^3570"CompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.o MSLSMRICornellFilter.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/MSLSMRICornell.hmap -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/include -IITK180/Modules/Core/common -IITK180/Modules/Core/common/include -IITK180/Modules/ThirdParty/VNL/src/vxl/vcl -IITK180/Modules/ThirdParty/VNL/src/vxl/core -IITK180/Modules/Filtering/Thresholding/include -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/DerivedSources/i386 -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell -include /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/PrecompiledHeaders/MSLSMRICornell_Prefix-crasbtimwiuykyfkmlqibqfxfazq/MSLSMRICornell_Prefix.pch -MMD -MT dependencies -MF /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.d --serialize-diagnostics /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.dia -c /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/MSLSMRICornellFilter.mm -o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.o36"1F07D908-83AB-48BA-B09A-34BD96D561C1-
-b2BE1EBAA-20B0-413A-B456-BED2956EBC3D
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/MSLSMRICornellFilter.mm247"CompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.o MSLSMRICornellFilter.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerdc66eefb46f9bc41^522b30fc46f9bc41^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/MSLSMRICornellFilter.mm0000000000000000^3570"CompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.o MSLSMRICornellFilter.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/MSLSMRICornell.hmap -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/include -IITK180/Modules/Core/common -IITK180/Modules/Core/common/include -IITK180/Modules/ThirdParty/VNL/src/vxl/vcl -IITK180/Modules/ThirdParty/VNL/src/vxl/core -IITK180/Modules/Filtering/Thresholding/include -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/DerivedSources/i386 -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell -include /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/PrecompiledHeaders/MSLSMRICornell_Prefix-crasbtimwiuykyfkmlqibqfxfazq/MSLSMRICornell_Prefix.pch -MMD -MT dependencies -MF /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.d --serialize-diagnostics /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.dia -c /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/MSLSMRICornellFilter.mm -o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornellFilter.o36"7247A673-49E6-4347-8844-94CC2FCAC46D-
+bCCA2825D-10E9-4BBD-9F5E-9CA1C5DC3DA6
 
 CCompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController-A9BF95BCDA0D6A39.o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
@@ -967,8 +967,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile
 bEC7F5D5E-E429-4DC4-9876-6CB8B480CF68
 
 CCompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s485472619.093710
-e485472619.406043
+s486098683.931037
+e486098684.216562
 r1
 xCompileC
 xDerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.o
@@ -989,8 +989,12 @@ d/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/OsiriXAPI.framework/Headers
 d/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/OsiriXAPI.framework/Headers/ROI.h
 d/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.h
 d/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/ProjectDebug.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm245"CompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.o SetWindowController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerf60d186bb9efbc41^598b6b6bb9efbc41^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm0000000000000000^3564"CompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.o SetWindowController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/MSLSMRICornell.hmap -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/include -IITK180/Modules/Core/common -IITK180/Modules/Core/common/include -IITK180/Modules/ThirdParty/VNL/src/vxl/vcl -IITK180/Modules/ThirdParty/VNL/src/vxl/core -IITK180/Modules/Filtering/Thresholding/include -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/DerivedSources/i386 -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell -include /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/PrecompiledHeaders/MSLSMRICornell_Prefix-crasbtimwiuykyfkmlqibqfxfazq/MSLSMRICornell_Prefix.pch -MMD -MT dependencies -MF /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.d --serialize-diagnostics /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.dia -c /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm -o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.o36"81754243-169B-48E3-9808-21FCB8CD8A20-
-b2BE1EBAA-20B0-413A-B456-BED2956EBC3D
+o/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm:480:8: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o        NSLog([roiNameBox stringValue]);
+o              ^~~~~~~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm245"CompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.o SetWindowController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler5e68eefb46f9bc41^a47237fc46f9bc41^-273"/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm:480:8: warning: format string is not a string literal (potentially insecure) [-Wformat-security]        NSLog([roiNameBox stringValue]);              ^~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-486098684#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@81"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm0000000000000000^479#7#479#7#14597#0#19"Format String Issue1(3@81"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm0000000000000000^479#7#479#31#14597#23#-0#0#1#-19%DVTDocumentLocation4@81"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm0000000000000000^3564"CompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.o SetWindowController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/MSLSMRICornell.hmap -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/include -IITK180/Modules/Core/common -IITK180/Modules/Core/common/include -IITK180/Modules/ThirdParty/VNL/src/vxl/vcl -IITK180/Modules/ThirdParty/VNL/src/vxl/core -IITK180/Modules/Filtering/Thresholding/include -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/DerivedSources/i386 -I/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell -include /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/PrecompiledHeaders/MSLSMRICornell_Prefix-crasbtimwiuykyfkmlqibqfxfazq/MSLSMRICornell_Prefix.pch -MMD -MT dependencies -MF /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.d --serialize-diagnostics /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.dia -c /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.mm -o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/SetWindowController.o36"CE22EB2B-30F1-4A43-B004-A8A27A4E90AC-
+bCCA2825D-10E9-4BBD-9F5E-9CA1C5DC3DA6
 
 CCompileC DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/x86_64/MSLSMRICornellFilter.o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/MSLSMRICornellFilter.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s485453647.488023
@@ -1065,25 +1069,32 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile
 bD943B49E-BF77-493A-810A-D78A7D3754F0
 
 CCompileXIB /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib
-s485472618.286067
-e485472619.092920
+s486098683.320804
+e486098683.930252
 r1
 xCompileXIB
 x/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:lsM-ps-NIk: note: View is clipping its content [13]
 o/* com.apple.ibtool.document.warnings */
-o/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:uoi-eR-jfa: warning: Automatically Recalculates Cell Size on OS X versions prior to 10.8 [5]
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compiling /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib34"CompileXIB SetWindowController.xib904e496ab9efbc41^64ca176bb9efbc41^-206"/* com.apple.ibtool.document.warnings *//Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:uoi-eR-jfa: warning: Automatically Recalculates Cell Size on OS X versions prior to 10.81(21%IDEActivityLogMessage2@67"Automatically Recalculates Cell Size on OS X versions prior to 10.8-485472619#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#21"Attribute Unavailable--0#0#1#-19%DVTDocumentLocation4@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib0000000000000000^609"CompileXIB SetWindowController.xib    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.7 --output-format human-readable-text --compile /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/SetWindowController.nib /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib36"0C914F58-2D29-4A67-97EE-CEF91DA052B3-
-b2BE1EBAA-20B0-413A-B456-BED2956EBC3D
+o/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:r8a-5e-PCF: warning: Image scaling property set (A checkbox image should always appear at the standard size) [9]
+o/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:Qbi-zf-bsF: warning: Automatically Recalculates Cell Size on OS X versions prior to 10.8 [5]
+o/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:hT6-bG-vLa: warning: Image scaling property set (A checkbox image should always appear at the standard size) [9]
+o/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:PPO-hl-6dd: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+o/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:OfK-8W-DkG: warning: Image scaling property set (A checkbox image should always appear at the standard size) [9]
+o/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:v9e-iW-37N: warning: Image scaling property set (A checkbox image should always appear at the standard size) [9]
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compiling /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib34"CompileXIB SetWindowController.xib123052fb46f9bc41^7425eefb46f9bc41^-1343"/* com.apple.ibtool.document.notices *//Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:lsM-ps-NIk: note: View is clipping its content/* com.apple.ibtool.document.warnings *//Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:r8a-5e-PCF: warning: Image scaling property set (A checkbox image should always appear at the standard size)/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:Qbi-zf-bsF: warning: Automatically Recalculates Cell Size on OS X versions prior to 10.8/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:hT6-bG-vLa: warning: Image scaling property set (A checkbox image should always appear at the standard size)/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:PPO-hl-6dd: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:OfK-8W-DkG: warning: Image scaling property set (A checkbox image should always appear at the standard size)/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:v9e-iW-37N: warning: Image scaling property set (A checkbox image should always appear at the standard size)7(21%IDEActivityLogMessage2@28"View is clipping its content-486098683#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#15"Clipped Content--2@87"Image scaling property set (A checkbox image should always appear at the standard size)123"/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:r8a-5e-PCF: warning: Image scaling property set486098683#18446744073709551615#0#-1#-3@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--2@67"Automatically Recalculates Cell Size on OS X versions prior to 10.8-486098683#18446744073709551615#0#-1#-3@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#21"Attribute Unavailable--2@87"Image scaling property set (A checkbox image should always appear at the standard size)123"/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:hT6-bG-vLa: warning: Image scaling property set486098683#18446744073709551615#0#-1#-3@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)155"/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:PPO-hl-6dd: warning: Content rectangle not entirely on screen with the menu bar486098683#18446744073709551615#0#-1#-3@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--2@87"Image scaling property set (A checkbox image should always appear at the standard size)123"/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:OfK-8W-DkG: warning: Image scaling property set486098683#18446744073709551615#0#-1#-3@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--2@87"Image scaling property set (A checkbox image should always appear at the standard size)123"/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib:v9e-iW-37N: warning: Image scaling property set486098683#18446744073709551615#0#-1#-3@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#1#-19%DVTDocumentLocation4@82"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib0000000000000000^609"CompileXIB SetWindowController.xib    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.7 --output-format human-readable-text --compile /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/SetWindowController.nib /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/SetWindowController.xib36"3B9BC977-0CF8-4583-8E40-4E3765693928-
+bCCA2825D-10E9-4BBD-9F5E-9CA1C5DC3DA6
 
 CCopyStringsFile /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s485472618.286284
-e485472618.292053
+s486098683.320959
+e486098683.324854
 r1
 xCopyStringsFile
 x/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/English.lproj/InfoPlist.strings
 xEnglish.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings181"CopyStringsFile DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.stringsee5f496ab9efbc41^e0d54a6ab9efbc41^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/English.lproj/InfoPlist.strings0000000000000000^535"CopyStringsFile DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"A02358F9-287B-4779-8FA2-E25791C945AF-
-b2BE1EBAA-20B0-413A-B456-BED2956EBC3D
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings181"CopyStringsFile DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.stringsa43552fb46f9bc41^fa4254fb46f9bc41^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/English.lproj/InfoPlist.strings0000000000000000^535"CopyStringsFile DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"92C1E09F-5E82-4BB6-BFB0-124CAEFCFBF4-
+bCCA2825D-10E9-4BBD-9F5E-9CA1C5DC3DA6
 
 CCreateUniversalBinary /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell normal i386\ x86_64
 s485453648.242016
@@ -1402,8 +1413,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection195"Link /
 bD943B49E-BF77-493A-810A-D78A7D3754F0
 
 CLd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell normal i386
-s485472619.437205
-e485472619.491427
+s486098684.218387
+e486098684.265089
 r1
 xLd
 x/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell
@@ -1498,6 +1509,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
@@ -1528,8 +1541,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
@@ -1550,18 +1561,18 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"Link /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell127"Ld DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell normal i3865dfe6f6bb9efbc41^1ac3846bb9efbc41^---0#0#1#--2927"Ld DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell normal i386    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development -L/Users/rijiansu/Downloads/osirixCMRI/osirix/ITK180/lib -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell -filelist /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornell.LinkFileList -mmacosx-version-min=10.7 -undefined dynamic_lookup -fobjc-link-runtime -litkv3p_netlib-4.1 -lITKLabelMap-4.1 -lITKIOPNG-4.1 -lITKDICOMParser-4.1 -lITKEXPAT-4.1 -lITKgiftiio-4.1 -lITKIOLSM-4.1 -lITKKLMRegionGrowing-4.1 -lITKQuadEdgeMesh-4.1 -lITKIOCSV-4.1 -litkgdcmuuid-4.1 -lITKVideoCore-4.1 -lITKIOTransformMatlab-4.1 -lITKIONRRD-4.1 -lITKIOMesh-4.1 -litkhdf5-4.1 -lITKStatistics-4.1 -lITKFEM-4.1 -lITKIOHDF5-4.1 -lITKVideoIO-4.1 -lITKIOImageBase-4.1 -lITKOptimizers-4.1 -litkvnl_algo-4.1 -lITKCommon-4.1 -lITKVTK-4.1 -lITKIOIPL-4.1 -lITKIOTransformHDF5-4.1 -lITKNrrdIO-4.1 -lITKWatersheds-4.1 -litkzlib-4.1 -lITKIOMeta-4.1 -lITKznz-4.1 -lITKIOBioRad-4.1 -litkgdcmjpeg8-4.1 -litkhdf5_cpp-4.1 -litkgdcmCommon-4.1 -lITKIONIFTI-4.1 -litkopenjpeg-4.1 -lITKPath-4.1 -lITKIOStimulate-4.1 -litkv3p_lsqr-4.1 -litksys-4.1 -lITKIOVTK-4.1 -lITKSpatialObjects-4.1 -litkgdcmIOD-4.1 -litkgdcmMSFF-4.1 -lITKMesh-4.1 -lITKVNLInstantiation-4.1 -litkpng-4.1 -lITKIOTIFF-4.1 -lITKPolynomials-4.1 -framework Cocoa -litkgdcmDICT-4.1 -lITKIOGE-4.1 -lITKIOTransformBase-4.1 -lITKOptimizersv4-4.1 -litkgdcmjpeg12-4.1 -lITKIOSpatialObjects-4.1 -weak_framework OsiriXAPI -lITKDeprecated-4.1 -litkjpeg-4.1 -litkvcl-4.1 -lITKReview-4.1 -litkgdcmjpeg16-4.1 -lITKIOGDCM-4.1 -lITKIOSiemens-4.1 -litkgdcmDSED-4.1 -lITKIOBMP-4.1 -lITKIOJPEG-4.1 -lITKIOGIPL-4.1 -lITKIOTransformInsightLegacy-4.1 -lITKIOXML-4.1 -lITKniftiio-4.1 -lITKBiasCorrection-4.1 -litktiff-4.1 -lITKBioCell-4.1 -lITKMetaIO-4.1 -litkvnl-4.1 -litkNetlibSlatec-4.1 -litktestlib-4.1 -Xlinker -dependency_info -Xlinker /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornell_dependency_info.dat -o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell36"0AC4C94D-D550-4FEE-AFBA-A8D05127B999-
-b2BE1EBAA-20B0-413A-B456-BED2956EBC3D
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"Link /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell127"Ld DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell normal i3866efa37fc46f9bc41^c6de43fc46f9bc41^---0#0#1#--2927"Ld DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell normal i386    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development -L/Users/rijiansu/Downloads/osirixCMRI/osirix/ITK180/lib -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development -F/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell -filelist /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornell.LinkFileList -mmacosx-version-min=10.7 -undefined dynamic_lookup -fobjc-link-runtime -litkv3p_netlib-4.1 -lITKLabelMap-4.1 -lITKIOPNG-4.1 -lITKDICOMParser-4.1 -lITKEXPAT-4.1 -lITKgiftiio-4.1 -lITKIOLSM-4.1 -lITKKLMRegionGrowing-4.1 -lITKQuadEdgeMesh-4.1 -lITKIOCSV-4.1 -litkgdcmuuid-4.1 -lITKVideoCore-4.1 -lITKIOTransformMatlab-4.1 -lITKIONRRD-4.1 -lITKIOMesh-4.1 -litkhdf5-4.1 -lITKStatistics-4.1 -lITKFEM-4.1 -lITKIOHDF5-4.1 -lITKVideoIO-4.1 -lITKIOImageBase-4.1 -lITKOptimizers-4.1 -litkvnl_algo-4.1 -lITKCommon-4.1 -lITKVTK-4.1 -lITKIOIPL-4.1 -lITKIOTransformHDF5-4.1 -lITKNrrdIO-4.1 -lITKWatersheds-4.1 -litkzlib-4.1 -lITKIOMeta-4.1 -lITKznz-4.1 -lITKIOBioRad-4.1 -litkgdcmjpeg8-4.1 -litkhdf5_cpp-4.1 -litkgdcmCommon-4.1 -lITKIONIFTI-4.1 -litkopenjpeg-4.1 -lITKPath-4.1 -lITKIOStimulate-4.1 -litkv3p_lsqr-4.1 -litksys-4.1 -lITKIOVTK-4.1 -lITKSpatialObjects-4.1 -litkgdcmIOD-4.1 -litkgdcmMSFF-4.1 -lITKMesh-4.1 -lITKVNLInstantiation-4.1 -litkpng-4.1 -lITKIOTIFF-4.1 -lITKPolynomials-4.1 -framework Cocoa -litkgdcmDICT-4.1 -lITKIOGE-4.1 -lITKIOTransformBase-4.1 -lITKOptimizersv4-4.1 -litkgdcmjpeg12-4.1 -lITKIOSpatialObjects-4.1 -weak_framework OsiriXAPI -lITKDeprecated-4.1 -litkjpeg-4.1 -litkvcl-4.1 -lITKReview-4.1 -litkgdcmjpeg16-4.1 -lITKIOGDCM-4.1 -lITKIOSiemens-4.1 -litkgdcmDSED-4.1 -lITKIOBMP-4.1 -lITKIOJPEG-4.1 -lITKIOGIPL-4.1 -lITKIOTransformInsightLegacy-4.1 -lITKIOXML-4.1 -lITKniftiio-4.1 -lITKBiasCorrection-4.1 -litktiff-4.1 -lITKBioCell-4.1 -lITKMetaIO-4.1 -litkvnl-4.1 -litkNetlibSlatec-4.1 -litktestlib-4.1 -Xlinker -dependency_info -Xlinker /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/MSLSMRICornell.build/Development/MSLSMRICornell.build/Objects-normal/i386/MSLSMRICornell_dependency_info.dat -o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/MacOS/MSLSMRICornell36"E01693D1-4F3C-47A7-987D-CBFAFBA25812-
+bCCA2825D-10E9-4BBD-9F5E-9CA1C5DC3DA6
 
 CProcessInfoPlistFile /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Info.plist /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/Info.plist
-s485472618.283091
-e485472618.285534
+s486098683.317686
+e486098683.320296
 r1
 xProcessInfoPlistFile
 x/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Info.plist
 x/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Process /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/Info.plist134"ProcessInfoPlistFile DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Info.plist Info.plistba87486ab9efbc41^c7d8496ab9efbc41^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/Info.plist0000000000000000^482"ProcessInfoPlistFile DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Info.plist Info.plist    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    builtin-infoPlistUtility /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/Info.plist -expandbuildsettings -platform macosx -o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Info.plist36"377C7E46-206F-4C96-A326-9B1203992CCC-
-b2BE1EBAA-20B0-413A-B456-BED2956EBC3D
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Process /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/Info.plist134"ProcessInfoPlistFile DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Info.plist Info.plista16551fb46f9bc41^0c7352fb46f9bc41^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/Info.plist0000000000000000^482"ProcessInfoPlistFile DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Info.plist Info.plist    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    builtin-infoPlistUtility /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/Info.plist -expandbuildsettings -platform macosx -o /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin/Contents/Info.plist36"142DAB77-852F-4940-B181-B0F04E81D85C-
+bCCA2825D-10E9-4BBD-9F5E-9CA1C5DC3DA6
 
 CProcessPCH /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Intermediates/PrecompiledHeaders/MSLSMRICornell_Prefix-anfffnepqnskjmgcdtqbodfekbcg/MSLSMRICornell_Prefix.pch.pch MSLSMRICornell_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s485443088.946792
@@ -1738,11 +1749,11 @@ CProcessPCH++ /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/M
 r0
 
 CTouch /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin
-s485472619.493309
-e485472619.499125
+s486098684.266236
+e486098684.270412
 r1
 xTouch
 x/Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Touch /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin88"Touch DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugineb577e6bb9efbc41^7ac8846bb9efbc41^---0#0#1#--305"Touch DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    /usr/bin/touch -c /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin36"99231C9E-6A30-49CE-9A16-7D1B73BFAF23-
-b2BE1EBAA-20B0-413A-B456-BED2956EBC3D
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Touch /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin88"Touch DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin443244fc46f9bc41^9f3b45fc46f9bc41^---0#0#1#--305"Touch DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin    cd /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell    /usr/bin/touch -c /Users/rijiansu/Downloads/osirixCMRI/MSLSMRICornell/DerivedData1/MSLSMRICornell/Build/Products/Development/MSLSMRICornell.osirixplugin36"DD41FC28-7998-4548-8690-C1D081705D5B-
+bCCA2825D-10E9-4BBD-9F5E-9CA1C5DC3DA6
 
