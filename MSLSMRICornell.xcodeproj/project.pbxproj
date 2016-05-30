@@ -89,6 +89,25 @@
 		0E77F6F51CEF665000136130 /* libitkzlib-4.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E77F6A71CEF664F00136130 /* libitkzlib-4.1.a */; };
 		0E77F6F61CEF665000136130 /* libITKznz-4.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E77F6A81CEF664F00136130 /* libITKznz-4.1.a */; };
 		0E77F6F81CEF685400136130 /* SetWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0E77F6F71CEF685400136130 /* SetWindowController.mm */; };
+		0EE3B9B21CFA540400242552 /* ITKSegmentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9B01CFA540400242552 /* ITKSegmentation.h */; };
+		0EE3B9C01CFA92A800242552 /* DCMPix.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9B51CFA92A800242552 /* DCMPix.h */; };
+		0EE3B9C11CFA92A800242552 /* DCMView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9B61CFA92A800242552 /* DCMView.h */; };
+		0EE3B9C21CFA92A800242552 /* dicomFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9B71CFA92A800242552 /* dicomFile.h */; };
+		0EE3B9C31CFA92A800242552 /* MyPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9B81CFA92A800242552 /* MyPoint.h */; };
+		0EE3B9C41CFA92A800242552 /* OSIWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9B91CFA92A800242552 /* OSIWindowController.h */; };
+		0EE3B9C51CFA92A800242552 /* PluginFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9BA1CFA92A800242552 /* PluginFilter.h */; };
+		0EE3B9C61CFA92A800242552 /* ROI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9BB1CFA92A800242552 /* ROI.h */; };
+		0EE3B9C71CFA92A800242552 /* Schedulable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9BC1CFA92A800242552 /* Schedulable.h */; };
+		0EE3B9C81CFA92A800242552 /* Scheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9BD1CFA92A800242552 /* Scheduler.h */; };
+		0EE3B9C91CFA92A800242552 /* StaticScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9BE1CFA92A800242552 /* StaticScheduler.h */; };
+		0EE3B9CA1CFA92A800242552 /* ViewerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9BF1CFA92A800242552 /* ViewerController.h */; };
+		0EE3B9CC1CFB974200242552 /* ITKSegmentation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3B9CB1CFB974200242552 /* ITKSegmentation.mm */; };
+		0EE3B9D31CFBC9B500242552 /* itkConnectedGradientThresholdImageFilter.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3B9CD1CFBC9B500242552 /* itkConnectedGradientThresholdImageFilter.cxx */; };
+		0EE3B9D41CFBC9B500242552 /* itkConnectedGradientThresholdImageFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9CE1CFBC9B500242552 /* itkConnectedGradientThresholdImageFilter.h */; };
+		0EE3B9D51CFBC9B500242552 /* itkGradientThresholdImageFunction.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3B9CF1CFBC9B500242552 /* itkGradientThresholdImageFunction.cxx */; };
+		0EE3B9D61CFBC9B500242552 /* itkGradientThresholdImageFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9D01CFBC9B500242552 /* itkGradientThresholdImageFunction.h */; };
+		0EE3B9D71CFBC9B500242552 /* ITKImageWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3B9D11CFBC9B500242552 /* ITKImageWrapper.h */; };
+		0EE3B9D81CFBC9B500242552 /* ITKImageWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3B9D21CFBC9B500242552 /* ITKImageWrapper.mm */; };
 		8420023212E829A200E1E9CE /* OsiriXAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8420023112E829A200E1E9CE /* OsiriXAPI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8D5B49AE048680CD000E48DA /* MSLSMRICornell_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF630370AF2F00C91783 /* MSLSMRICornell_Prefix.pch */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
@@ -183,6 +202,25 @@
 		0E77F6A81CEF664F00136130 /* libITKznz-4.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libITKznz-4.1.a"; path = "../osirix/ITK180/lib/libITKznz-4.1.a"; sourceTree = "<group>"; };
 		0E77F6F71CEF685400136130 /* SetWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SetWindowController.mm; sourceTree = "<group>"; };
 		0ED226001CEF9D9A002FDD13 /* ProjectDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectDebug.h; sourceTree = "<group>"; };
+		0EE3B9B01CFA540400242552 /* ITKSegmentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITKSegmentation.h; sourceTree = "<group>"; };
+		0EE3B9B51CFA92A800242552 /* DCMPix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMPix.h; sourceTree = "<group>"; };
+		0EE3B9B61CFA92A800242552 /* DCMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMView.h; sourceTree = "<group>"; };
+		0EE3B9B71CFA92A800242552 /* dicomFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dicomFile.h; sourceTree = "<group>"; };
+		0EE3B9B81CFA92A800242552 /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
+		0EE3B9B91CFA92A800242552 /* OSIWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSIWindowController.h; sourceTree = "<group>"; };
+		0EE3B9BA1CFA92A800242552 /* PluginFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginFilter.h; sourceTree = "<group>"; };
+		0EE3B9BB1CFA92A800242552 /* ROI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROI.h; sourceTree = "<group>"; };
+		0EE3B9BC1CFA92A800242552 /* Schedulable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedulable.h; sourceTree = "<group>"; };
+		0EE3B9BD1CFA92A800242552 /* Scheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scheduler.h; sourceTree = "<group>"; };
+		0EE3B9BE1CFA92A800242552 /* StaticScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticScheduler.h; sourceTree = "<group>"; };
+		0EE3B9BF1CFA92A800242552 /* ViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewerController.h; sourceTree = "<group>"; };
+		0EE3B9CB1CFB974200242552 /* ITKSegmentation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ITKSegmentation.mm; sourceTree = "<group>"; };
+		0EE3B9CD1CFBC9B500242552 /* itkConnectedGradientThresholdImageFilter.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = itkConnectedGradientThresholdImageFilter.cxx; sourceTree = "<group>"; };
+		0EE3B9CE1CFBC9B500242552 /* itkConnectedGradientThresholdImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itkConnectedGradientThresholdImageFilter.h; sourceTree = "<group>"; };
+		0EE3B9CF1CFBC9B500242552 /* itkGradientThresholdImageFunction.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = itkGradientThresholdImageFunction.cxx; sourceTree = "<group>"; };
+		0EE3B9D01CFBC9B500242552 /* itkGradientThresholdImageFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itkGradientThresholdImageFunction.h; sourceTree = "<group>"; };
+		0EE3B9D11CFBC9B500242552 /* ITKImageWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITKImageWrapper.h; sourceTree = "<group>"; };
+		0EE3B9D21CFBC9B500242552 /* ITKImageWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ITKImageWrapper.mm; sourceTree = "<group>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF630370AF2F00C91783 /* MSLSMRICornell_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLSMRICornell_Prefix.pch; sourceTree = "<group>"; };
 		8420023112E829A200E1E9CE /* OsiriXAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OsiriXAPI.framework; sourceTree = "<group>"; };
@@ -317,6 +355,7 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0EE3B9B41CFA92A800242552 /* OsiriX Headers */,
 				AB2C26750677B0C400A08910 /* MSLSMRICornellFilter */,
 			);
 			name = Classes;
@@ -407,6 +446,24 @@
 			name = ITK180;
 			sourceTree = "<group>";
 		};
+		0EE3B9B41CFA92A800242552 /* OsiriX Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0EE3B9B51CFA92A800242552 /* DCMPix.h */,
+				0EE3B9B61CFA92A800242552 /* DCMView.h */,
+				0EE3B9B71CFA92A800242552 /* dicomFile.h */,
+				0EE3B9B81CFA92A800242552 /* MyPoint.h */,
+				0EE3B9B91CFA92A800242552 /* OSIWindowController.h */,
+				0EE3B9BA1CFA92A800242552 /* PluginFilter.h */,
+				0EE3B9BB1CFA92A800242552 /* ROI.h */,
+				0EE3B9BC1CFA92A800242552 /* Schedulable.h */,
+				0EE3B9BD1CFA92A800242552 /* Scheduler.h */,
+				0EE3B9BE1CFA92A800242552 /* StaticScheduler.h */,
+				0EE3B9BF1CFA92A800242552 /* ViewerController.h */,
+			);
+			path = "OsiriX Headers";
+			sourceTree = "<group>";
+		};
 		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -444,11 +501,19 @@
 		AB2C26750677B0C400A08910 /* MSLSMRICornellFilter */ = {
 			isa = PBXGroup;
 			children = (
+				0EE3B9CD1CFBC9B500242552 /* itkConnectedGradientThresholdImageFilter.cxx */,
+				0EE3B9CE1CFBC9B500242552 /* itkConnectedGradientThresholdImageFilter.h */,
+				0EE3B9CF1CFBC9B500242552 /* itkGradientThresholdImageFunction.cxx */,
+				0EE3B9D01CFBC9B500242552 /* itkGradientThresholdImageFunction.h */,
+				0EE3B9D11CFBC9B500242552 /* ITKImageWrapper.h */,
+				0EE3B9D21CFBC9B500242552 /* ITKImageWrapper.mm */,
 				ABA48A640680BB600089EB4F /* MSLSMRICornellFilter.h */,
 				0E77F6501CEF316400136130 /* MSLSMRICornellFilter.mm */,
 				0E77F6541CEF407000136130 /* SetWindowController.h */,
 				0E77F6F71CEF685400136130 /* SetWindowController.mm */,
 				0ED226001CEF9D9A002FDD13 /* ProjectDebug.h */,
+				0EE3B9B01CFA540400242552 /* ITKSegmentation.h */,
+				0EE3B9CB1CFB974200242552 /* ITKSegmentation.mm */,
 			);
 			name = MSLSMRICornellFilter;
 			sourceTree = "<group>";
@@ -460,9 +525,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE3B9C61CFA92A800242552 /* ROI.h in Headers */,
+				0EE3B9D61CFBC9B500242552 /* itkGradientThresholdImageFunction.h in Headers */,
+				0EE3B9C11CFA92A800242552 /* DCMView.h in Headers */,
+				0EE3B9C51CFA92A800242552 /* PluginFilter.h in Headers */,
 				0E77F6571CEF407000136130 /* SetWindowController.h in Headers */,
+				0EE3B9C21CFA92A800242552 /* dicomFile.h in Headers */,
+				0EE3B9C01CFA92A800242552 /* DCMPix.h in Headers */,
+				0EE3B9C91CFA92A800242552 /* StaticScheduler.h in Headers */,
+				0EE3B9C41CFA92A800242552 /* OSIWindowController.h in Headers */,
+				0EE3B9C71CFA92A800242552 /* Schedulable.h in Headers */,
+				0EE3B9C81CFA92A800242552 /* Scheduler.h in Headers */,
+				0EE3B9B21CFA540400242552 /* ITKSegmentation.h in Headers */,
 				8D5B49AE048680CD000E48DA /* MSLSMRICornell_Prefix.pch in Headers */,
+				0EE3B9D71CFBC9B500242552 /* ITKImageWrapper.h in Headers */,
 				ABA48A650680BB600089EB4F /* MSLSMRICornellFilter.h in Headers */,
+				0EE3B9CA1CFA92A800242552 /* ViewerController.h in Headers */,
+				0EE3B9C31CFA92A800242552 /* MyPoint.h in Headers */,
+				0EE3B9D41CFBC9B500242552 /* itkConnectedGradientThresholdImageFilter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +622,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE3B9D31CFBC9B500242552 /* itkConnectedGradientThresholdImageFilter.cxx in Sources */,
+				0EE3B9CC1CFB974200242552 /* ITKSegmentation.mm in Sources */,
+				0EE3B9D51CFBC9B500242552 /* itkGradientThresholdImageFunction.cxx in Sources */,
 				0E77F6511CEF316400136130 /* MSLSMRICornellFilter.mm in Sources */,
+				0EE3B9D81CFBC9B500242552 /* ITKImageWrapper.mm in Sources */,
 				0E77F6F81CEF685400136130 /* SetWindowController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,7 +748,9 @@
 					i386,
 					x86_64,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx10.5;
 			};
 			name = Development;
@@ -676,7 +762,9 @@
 					x86_64,
 					i386,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx10.5;
 			};
 			name = Deployment;
